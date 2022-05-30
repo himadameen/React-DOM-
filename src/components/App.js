@@ -1,13 +1,15 @@
 import React from "react";
+import Text from "./Text";
 
 const App = () => {
-  const text =
-    "Now I can render any React component on any DOM node I want using ReactDOM.render";
-
   return (
     <>
       <div id="main">
-        <p>{text}</p>
+        <Text
+          name={
+            "Now I can render any React component on any DOM node I want using ReactDOM.render"
+          }
+        />
       </div>
     </>
   );
